@@ -1,7 +1,3 @@
-import Image from 'next/image'
-
 export default function Home() {
-  return (
-   <div>Home Page</div>
-  )
+  return <div className="border-2 border-red-500 flex-1 ">Home Page</div>;
 }
