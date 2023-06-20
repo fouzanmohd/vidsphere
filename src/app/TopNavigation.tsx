@@ -24,7 +24,7 @@ const TopNavigation = () => {
             placeholder="Search"
             value={search}
             onChange={(event) => setSearch(event.target.value)}
-            className="w-full px-4 py-2 text-zinc-200 bg-zinc-900 border-[1px] border-zinc-700 focus:bg-black rounded-tl-full rounded-bl-full focus:outline-none focus:ring-[1px] focus:ring-sky-500 placeholder:text-zinc-400"
+            className="w-full px-4 py-3 text-zinc-200 bg-zinc-900 border-[1px] border-zinc-700 focus:bg-black rounded-tl-full rounded-bl-full focus:outline-none focus:ring-[1px] focus:ring-sky-500 placeholder:text-zinc-400"
           />
           <div className="flex items-center bg-zinc-700 px-5 py-3 rounded-tr-full rounded-br-full">
             <BiSearch size={22} />

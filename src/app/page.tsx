@@ -13,7 +13,7 @@ export default function Home() {
               height={180}
               width={340}
               alt="thumbnail"
-              className="rounded-lg"
+              className="rounded-lg cursor-pointer"
             />
           </div>
           <div className="flex gap-3">
@@ -28,13 +28,13 @@ export default function Home() {
             </div>
             <div className="flex flex-col gap-2">
               <div className="flex justify-between">
-                <span className="font-semibold text-white max-w-[80%]">
+                <span className="font-semibold text-white max-w-[80%] cursor-pointer hover:text-zinc-300">
                   {video.title}
                 </span>
                 <BsThreeDotsVertical />
               </div>
               <div className="text-sm text-zinc-400">
-                <span>{video.channelName}</span>
+                <span className="cursor-pointer">{video.channelName}</span>
                 <div className="flex items-center">
                   <span>{video.viewCount}</span>
                   <BsDot />
