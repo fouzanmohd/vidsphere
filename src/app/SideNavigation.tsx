@@ -55,8 +55,8 @@ const SideNavigation = () => {
     <div className="p-[4px] lg:px-2 lg:w-[260px]">
       {MenuItems.map((item) => (
         <div
-          key={item.text}
-          className={`flex flex-col lg:flex-row gap-1 lg:gap-6 p-4 lg:py-2 items-center hover:bg-zinc-700 mb-1 ${
+        key={item.text}
+          className={`flex flex-col lg:flex-row gap-1 lg:gap-6 p-4 lg:py-2 items-center hover:bg-zinc-700 ${
             item.pathname === pathname && "bg-zinc-700 hover:bg-zinc-600"
           } rounded-lg cursor-pointer`}
           onClick={() => handleItemClick(item)}

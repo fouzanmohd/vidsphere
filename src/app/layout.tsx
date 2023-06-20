@@ -1,9 +1,6 @@
+import "./globals.css";
 import SideNavigation from "./SideNavigation";
 import TopNavigation from "./TopNavigation";
-import "./globals.css";
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -17,8 +14,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="bg-zinc-900  text-zinc-200">
-        <div className="flex-col h-screen w-screen">
+      <body className="bg-zinc-900 text-zinc-200">
+        <div className="flex flex-col h-screen w-screen">
           <TopNavigation />
           <div className="flex flex-1">
             <SideNavigation />
