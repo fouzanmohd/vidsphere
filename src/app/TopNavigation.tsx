@@ -43,7 +43,7 @@ const TopNavigation = () => {
         </div>
         <div className="cursor-pointer">
           <Image
-            src="https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg"
+            src="/images/elon.jpeg"
             height={40}
             width={40}
             alt="user image"
