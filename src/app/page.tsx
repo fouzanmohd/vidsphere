@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col px-8 py-4 md:flex-row flex-wrap gap-10 lg:gap-4 flex-1">
       {feedVideos.map((video) => (
-        <div key={video.id} className="flex flex-col gap-3 w-[340px]">
+        <div key={video.id} className="flex flex-col gap-3 lg:w-[340px]">
           <div className="">
             <Image
               src={video.thumbnailUrl}
@@ -17,9 +17,9 @@ export default function Home() {
             />
           </div>
           <div className="flex gap-3">
-            <div>
+            <div className="min-w-[40px] ">
               <Image
-                src="https://pbs.twimg.com/profile_images/1590968738358079488/IY9Gx6Ok_400x400.jpg"
+                src={video.channelThumbUrl}
                 height={40}
                 width={40}
                 alt="user image"

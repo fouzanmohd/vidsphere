@@ -52,7 +52,7 @@ const SideNavigation = () => {
   };
 
   return (
-    <div className="p-[4px] lg:px-2 lg:w-[260px]">
+    <div className="p-[4px] lg:px-2 lg:w-[220px] sm:w-[100px]">
       {MenuItems.map((item) => (
         <div
         key={item.text}
