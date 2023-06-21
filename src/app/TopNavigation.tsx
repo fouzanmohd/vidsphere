@@ -43,7 +43,7 @@ const TopNavigation = () => {
         </div>
         <div className="cursor-pointer">
           <Image
-            src="/vidsphere/images/elon.jpeg"
+            src="./vidsphere/images/elon.jpeg"
             height={40}
             width={40}
             alt="user image"
